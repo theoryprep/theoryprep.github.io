@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Privacy Policy | TheoryPrep</title>
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      line-height: 1.6;
+      max-width: 800px;
+      margin: 40px auto;
+      padding: 0 20px;
+      color: #111;
+    }
+    h1, h2 {
+      color: #222;
+    }
+    h1 {
+      margin-bottom: 10px;
+    }
+    a {
+      color: #2563eb;
+    }
+    hr {
+      margin: 30px 0;
+    }
+  </style>
+</head>
+<body>
+
+<h1>Privacy Policy</h1>
+<p><strong>App:</strong> TheoryPrep</p>
+<p><strong>Last updated:</strong> 26 December 2025</p>
+
+<hr />
+
+<h2>1. Who We Are</h2>
+<p>
+TheoryPrep is a mobile application operated by an individual developer based in the United Kingdom.
+</p>
+<p>
+If you have questions about this Privacy Policy, contact:
+<br />
+<strong>Email:</strong> <a href="mailto:theoryprep.uk@gmail.com">theoryprep.uk@gmail.com</a>
+</p>
+
+<h2>2. Information We Collect</h2>
+<p>We collect limited information to operate and improve the app:</p>
+<ul>
+  <li>Anonymous user identifier (Firebase UID)</li>
+  <li>Practice answers, test results, and learning progress</li>
+  <li>Weak areas and AI-generated study recommendations</li>
+  <li>App usage data and crash reports</li>
+  <li>Device and technical information (e.g. OS, app version)</li>
+</ul>
+
+<p>We do <strong>not</strong> collect your name, email address, or precise location at this stage.</p>
+
+<h2>3. How We Use Your Data</h2>
+<ul>
+  <li>Provide driving theory practice features</li>
+  <li>Track progress and performance</li>
+  <li>Generate AI-powered explanations and recommendations</li>
+  <li>Improve app stability and functionality</li>
+</ul>
+
+<p>We do not sell your personal data.</p>
+
+<h2>4. Legal Basis for Processing</h2>
+<p>Under UK GDPR, we process data based on:</p>
+<ul>
+  <li>Legitimate interests (operating and improving the app)</li>
+  <li>Contractual necessity (providing requested features)</li>
+  <li>User consent, where required</li>
+</ul>
+
+<h2>5. AI-Generated Content</h2>
+<p>
+TheoryPrep uses artificial intelligence to generate explanations and recommendations for educational purposes.
+AI-generated content may be inaccurate and should not replace official DVSA materials.
+</p>
+
+<h2>6. Data Storage & Security</h2>
+<p>
+Data is securely stored using Google Firebase services.
+Data may be processed in the UK, EU, or other GDPR-compliant regions.
+</p>
+
+<h2>7. Data Retention</h2>
+<p>
+We retain data only as long as necessary to provide the app.
+Inactive data may be periodically deleted.
+</p>
+
+<h2>8. Your Rights</h2>
+<p>You have the right to:</p>
+<ul>
+  <li>Access your data</li>
+  <li>Request correction or deletion</li>
+  <li>Object to certain processing</li>
+</ul>
+
+<p>
+To exercise your rights, email:
+<br />
+<a href="mailto:theoryprep.uk@gmail.com">theoryprep.uk@gmail.com</a>
+</p>
+
+<h2>9. Children’s Privacy</h2>
+<p>
+TheoryPrep is not intended for children under the age of 13.
+We do not knowingly collect data from children.
+</p>
+
+<h2>10. Changes to This Policy</h2>
+<p>
+We may update this Privacy Policy from time to time.
+The latest version will always be available on this page.
+</p>
+
+</body>
+</html>
