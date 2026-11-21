@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#fbf9ff" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#111827" media="(prefers-color-scheme: dark)">
+  <meta name="description" content="Prepare for your UK driving theory test with TheoryPrep. Practise questions, take mock tests and sharpen your hazard perception skills.">
+  <link rel="icon" type="image/png" href="assets/favicon.png">
+  <link rel="apple-touch-icon" href="assets/icon.png">
+  <title>TheoryPrep — Get ready for your theory test</title>
+  <style>
+    :root { color-scheme: light dark; --paper:#fbf9ff; --card:#fff; --ink:#111827; --muted:#6b7280; --faint:#9ca3af; --accent:#6b21a8; --accent-hover:#7e22ce; --chip:#f3e8ff; --chip-ink:#6b21a8; --dot:#a855f7; --orb:#e9d5ff; --frame:#2a2a35; --shadow:#6b21a81f; }
+    @media (prefers-color-scheme: dark) { :root { --paper:#111827; --card:#1f2937; --ink:#f3f4f6; --muted:#9ca3af; --faint:#6b7280; --accent:#d8b4fe; --accent-hover:#7e22ce; --chip:#3b0764; --chip-ink:#e9d5ff; --dot:#d8b4fe; --orb:#3b0764; --frame:#0b0b10; --shadow:#00000066; } }
+    * { box-sizing:border-box; }
+    body { margin:0; min-height:100vh; background:var(--paper); color:var(--ink); font-family:Inter,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; }
+    main { min-height:100vh; display:grid; grid-template-columns:1.08fr .92fr; max-width:1240px; margin:auto; padding:34px 6vw 28px; align-items:center; gap:40px; }
+    .brand { display:flex; align-items:center; gap:11px; font-weight:800; font-size:18px; letter-spacing:-.4px; }
+    .brand img { width:38px; height:38px; border-radius:12px; }
+    .copy { padding:28px 0; }
+    .eyebrow { display:inline-flex; align-items:center; gap:8px; margin:54px 0 18px; padding:8px 12px; border-radius:99px; background:var(--chip); color:var(--chip-ink); font-size:13px; font-weight:700; }
+    .dot { width:7px; height:7px; border-radius:50%; background:var(--dot); }
+    h1 { max-width:640px; margin:0; font-size:clamp(48px,6vw,78px); line-height:.99; letter-spacing:-5px; }
+    h1 span { color:var(--accent); }
+    .intro { max-width:500px; margin:23px 0 30px; color:var(--muted); font-size:18px; line-height:1.65; }
+    .stores { display:flex; flex-wrap:wrap; gap:12px; }
+    .store { display:flex; align-items:center; gap:11px; min-width:190px; padding:12px 17px; border:1px solid #6b21a8; border-radius:13px; background:#6b21a8; color:white; text-decoration:none; box-shadow:0 5px 12px var(--shadow); transition:transform .16s,background .16s; }
+    .store:hover { transform:translateY(-2px); background:var(--accent-hover); }
+    .store svg { width:25px; height:25px; flex:none; fill:currentColor; }
+    .store small { display:block; font-size:10px; opacity:.8; line-height:1.2; }
+    .store strong { display:block; font-size:15px; line-height:1.35; }
+    .fine { margin:16px 0 0; color:var(--faint); font-size:13px; }
+    .visual { position:relative; display:grid; place-items:center; min-height:570px; }
+    .orb { position:absolute; width:min(39vw,470px); aspect-ratio:1; border-radius:50%; background:var(--orb); }
+    .phone { position:relative; width:260px; padding:0; overflow:hidden; border:7px solid var(--frame); border-radius:38px; background:#fff; transform:rotate(4deg); box-shadow:0 32px 70px var(--shadow); }
+    .phone img { display:block; width:100%; height:auto; }
+    .note { position:absolute; right:2%; bottom:15%; padding:15px 18px; background:var(--card); border-radius:15px; box-shadow:0 12px 35px var(--shadow); font-size:14px; font-weight:700; transform:rotate(-3deg); }
+    .note span { display:block; margin-top:5px; color:var(--accent); font-size:12px; }
+    footer { grid-column:1/-1; display:flex; justify-content:space-between; align-items:center; gap:16px; padding-top:12px; color:var(--faint); font-size:12px; }
+    footer nav { display:flex; gap:20px; }
+    footer a { color:var(--muted); text-decoration:none; }
+    footer a:hover { text-decoration:underline; }
+    @media(max-width:760px) { main { grid-template-columns:1fr; gap:0; padding:24px 7vw 20px; } .copy { padding:0; } .eyebrow { margin-top:44px; } h1 { letter-spacing:-3px; } .intro { font-size:16px; } .visual { min-height:390px; } .orb { width:290px; } .phone { width:190px; } .note { right:2%; bottom:12%; } footer { margin-top:0; flex-direction:column; align-items:flex-start; } }
+    @media(prefers-reduced-motion:reduce) { *,*::before,*::after { transition:none !important; } }
+  </style>
+</head>
+<body>
+  <main>
+    <section class="copy" aria-labelledby="headline">
+      <div class="brand"><img src="assets/icon.png" alt="">TheoryPrep</div>
+      <div class="eyebrow"><span class="dot"></span> Your theory test, within reach</div>
+      <h1 id="headline">Get ready.<br><span>Get on the road.</span></h1>
+      <p class="intro">Build confidence for your UK driving theory test with focused practice, realistic mock tests and hazard perception training.</p>
+      <div class="stores" aria-label="Download TheoryPrep">
+        <a class="store" href="https://apps.apple.com/gb/app/id6757991285" aria-label="Download on the App Store">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M16.37 12.44c.02 2.18 1.91 2.9 1.93 2.91-.02.05-.3 1.04-.99 2.06-.6.88-1.22 1.76-2.2 1.78-.96.02-1.27-.57-2.37-.57s-1.45.55-2.36.59c-.95.04-1.67-.96-2.27-1.84-1.24-1.8-2.18-5.08-.91-7.3.63-1.1 1.76-1.8 2.99-1.82.93-.02 1.8.63 2.37.63.56 0 1.62-.78 2.73-.66.47.02 1.8.19 2.65 1.48-.07.04-1.58.92-1.57 2.74ZM14.58 6.9c.5-.6.83-1.43.74-2.26-.72.03-1.6.48-2.12 1.08-.46.53-.86 1.38-.75 2.2.81.06 1.64-.41 2.13-1.02Z"/></svg><span><small>Download on the</small><strong>App Store</strong></span>
+        </a>
+        <a class="store" href="https://play.google.com/store/apps/details?id=com.theoryprepuk.theoryprep" aria-label="Get it on Google Play">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3.6 2.4c-.37.38-.6.97-.6 1.74v15.72c0 .77.23 1.36.6 1.74L12.7 12 3.6 2.4Zm10.1 8.55L5.1 1.7l11.05 6.35-2.45 2.9Zm0 2.1 2.45 2.9L5.1 22.3l8.6-9.25Zm7.1-2.13-3.05-1.75L15.1 12l2.65 2.83 3.05-1.75c.88-.5.88-1.32 0-1.82Z"/></svg><span><small>GET IT ON</small><strong>Google Play</strong></span>
+        </a>
+      </div>
+      <p class="fine">Free to start · Practice at your own pace</p>
+    </section>
+    <section class="visual" aria-label="TheoryPrep app preview">
+      <div class="orb"></div>
+      <div class="phone"><img src="assets/app-home.png" width="568" height="1208" alt="TheoryPrep home screen showing pass readiness and quick actions for practice, mock tests, study plan and hazard perception"></div>
+      <div class="note">A little practice goes a long way<span>✦ Keep your streak going</span></div>
+    </section>
+    <footer><span>© 2026 TheoryPrep</span><nav aria-label="Legal"><a href="privacy-policy.html">Privacy</a><a href="terms.html">Terms</a><a href="support.html">Support</a></nav></footer>
+  </main>
+</body>
+</html>
